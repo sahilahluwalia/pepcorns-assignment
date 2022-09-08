@@ -1,0 +1,163 @@
+
+.master{
+    background-color: #F7FAFC;
+
+}
+.container{
+    background-color: #F7FAFC;
+    
+}
+
+.navbar{
+    background-color: #5D72E4;
+    color: white;
+}
+.navbar>div{
+    padding:0px 50px 0px 50px
+}
+.navbar>div>img{
+    height: 30px;
+}
+
+.firstsectionbuttons>button{
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+
+    margin-right:20px;
+    border-radius: 0.25rem;
+    padding:0.625rem 1.25rem
+
+    
+}
+
+body >div> div.container > div > div.card-body > div > div > img{
+    height: 75px;
+}
+body >div> div.container > div > div.card-body > div > div:nth-child(3) > div{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap:20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.genztextsection{
+    display: flex;
+    font-weight: 600;
+    padding: 20px;
+    
+    font-size: 12px;
+}
+.genztextsection>ul{
+   padding: 2px 5px 2px 5px;
+    margin-right: 20px;
+    /* font-weight: 500; */
+}
+.genztextsection>ul:nth-child(1){
+   border-radius: 5px;
+   padding: 2px 5px 2px 5px;
+   margin-left: 50px;
+    background-color: #FBDCDA;
+}
+
+
+body > div.container > div.col-8 > div > div.card-footer>*{
+    /* text-decoration: none; */
+
+}
+body > div.container > div.col-8 > div > div.card-footer>div>*>a{
+    /* text-decoration: none; */
+}
+
+.section2buttons{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+
+    /* background-color: black; */
+    gap:20px;
+    padding-top: 30px;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+.section2buttons>li{
+    padding:10px 40px 10px 40px;
+    border-radius: 10px;
+
+    background-color: white;
+}
+.section2buttons>li:hover{
+    color:white;
+    background-color: #5D72E4;
+}
+#myheader{
+    padding: 1.25rem 1.5rem;
+}
+#bigcardbody{
+    padding: 1.5rem;
+}
+h5{
+    font-size: .8125rem;
+    margin-bottom: 0.5rem;
+    color: #32325d;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+#bigcardbody > hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col-4>div>.card-header{
+    padding-top:1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #fff;
+}
+.col-4>div>.card-body{
+    padding:1.5rem;
+}
+.col-4>div>.card-footer{
+    background-color: #fff;
+    padding-top:1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+body > div.master > div > div.row > div.col-4 > * > div > div.my-4.text-muted > div.d-grid.gap-2.mt-5 > button:hover{
+        position: relative;
+        bottom:1.5px;
+        /* transition: 250ms; */
+        /* color:black; */
+        box-shadow: -3px 11px 16px -14px rgba(0,0,0,0.46);
+}
+body > div.master > div > div.row > div.col-4 > div.card.shadow.mb-4.border-0 > div.card-footer.text-center.d-grid > button:hover{
+    box-shadow: -3px 11px 16px -14px rgba(0,0,0,0.46);
+    position: relative;
+    bottom:1.5px;
+
+}
+body > div.master > div > div.row > div.col-8.mb-5 > div.section2buttons.mb-3 > li:nth-child(1){
+    background-color: #5D72E4;
+    color: white;
+}
+
+
+a:link{
+    text-decoration: none; 
+}
+
+body > div.master > div > div.row > div.col-8.mb-5 > a > h6{
+    text-decoration: none; 
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+body > div.master > div > div.row > div.col-8.mb-5 > a > h6:hover{
+    text-decoration: none; 
+    color: blue;
+}
